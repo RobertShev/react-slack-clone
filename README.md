@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.pinimg.com/originals/87/d5/4a/87d54ab69b5838854941270ab9c6a2cf.gif" alt="Project logo"></a>
 </p>
 
-<h3 align="center">slack</h3>
+<h3 align="center">Slack clone</h3>
 
 <div align="center">
 
