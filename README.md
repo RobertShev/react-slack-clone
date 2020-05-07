@@ -3,16 +3,7 @@
  <img width=270px height=200px src="https://i.pinimg.com/originals/87/d5/4a/87d54ab69b5838854941270ab9c6a2cf.gif" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Slack clone</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/RobertShev/react-slack-clone/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/RobertShev/react-slack-clone/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-
-</div>
+<h3 align="center">Slack Clone</h3>
 
 ---
 
@@ -75,4 +66,4 @@ Add notes about how to use the system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@RobertShev](https://github.com/robertshev) - Robert Ševtšenko if-17
