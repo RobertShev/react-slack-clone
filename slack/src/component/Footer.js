@@ -1,10 +1,11 @@
 import React from 'react';
+import '../sass/components/_footer.scss';
 
 function Footer() {
   return (
-    <div>
-      <h2>Some Important information</h2>
-    </div>
+    <footer className="footer">
+      <p>Some footer nonsense!</p>
+    </footer>
   );
 }
 
