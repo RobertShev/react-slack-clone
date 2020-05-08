@@ -1,11 +1,15 @@
 import React from 'react';
 import '../sass/pages/_home.scss';
+import { Container, Row, Col } from 'reactstrap';
 
 function Home() {
   return (
-    <div>
-      <h1>This is home page</h1>
-    </div>
+    <Container>
+      <Row>
+        <Col>.col</Col>
+        <Col>.col</Col>
+      </Row>
+    </Container>
   );
 }
 
