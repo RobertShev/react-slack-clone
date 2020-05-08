@@ -1,7 +1,13 @@
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  width: 125px;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
 .nav-link {
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }

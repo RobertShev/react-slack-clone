@@ -3,4 +3,15 @@
   text-align: center;
   background-color: tomato;
   color: white;
+  margin-top: auto;
+
+  .footer-list {
+    list-style-type: none;
+  }
+  .informational-list {
+    li {
+      display: inline;
+    }
+    list-style-type: none;
+  }
 }
