@@ -78,6 +78,8 @@ npm start
 
 Open http://localhost:3000 to view it in the browser.
 
+[Available Scripts](https://github.com/RobertShev/react-slack-clone/blob/master/slack/README.md)
+
 ## 🎈 Dependencies <a name="used_dependencies"></a>
 
 ```
