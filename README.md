@@ -36,9 +36,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
-if not installed npm (comes with nodejs)
+Check if npm is installed.
+npm (comes with nodejs).
 
+```
+npm -v
+```
+
+if not installed:
 follow link below to install nodejs and npm
 [install Nodejs](https://nodejs.org/en/download/)
 
