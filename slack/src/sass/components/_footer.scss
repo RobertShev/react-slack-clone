@@ -1,17 +1,54 @@
 .footer {
   flex-shrink: 0;
   text-align: center;
-  background-color: tomato;
-  color: white;
   margin-top: auto;
 
+  .secondary-logo {
+    padding-left: 0;
+    padding-top: 5em;
+  }
   .footer-list {
     list-style-type: none;
-  }
-  .informational-list {
+    text-align: left;
     li {
-      display: inline;
+      padding: 0.5em;
+
+      p {
+        font-weight: 600;
+      }
     }
-    list-style-type: none;
+  }
+  .footer-secondary {
+    background-color: rgb(250, 250, 250);
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    .informational-list {
+      li {
+        padding: 0.5em;
+        display: inline;
+        font-size: 0.8em;
+        font-weight: 600;
+      }
+      list-style-type: none;
+    }
+    .social-networks {
+      display: inline;
+      .svg-inline--fa {
+        margin: 0.3em;
+        text-align: right;
+      }
+    }
+  }
+  .footer-copyright {
+    background-color: rgb(245, 245, 245);
+    font-size: 0.8em;
+    padding: 0.8em;
+    /* For Edge */
+    -moz-text-align-last: left; /* For Firefox prior 58.0 */
+    text-align-last: left;
+    span {
+      margin-left: 2em;
+      text-align: left;
+    }
   }
 }
