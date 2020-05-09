@@ -1,0 +1,94 @@
+@import '../custom/colors.scss';
+.introduction-page {
+  padding-top: 2em;
+
+  .main-page-image {
+    width: 40em;
+    height: auto;
+  }
+  .bolt-span-text {
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+  h1 {
+    padding-top: 0.3em;
+    font-weight: 800;
+    font-size: 3em;
+  }
+  p {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+  button {
+    width: 9em;
+    height: 3em;
+  }
+  .button-distanced {
+    margin-left: 0.5em;
+  }
+}
+
+.video-page {
+  margin-top: 6em;
+  align-items: center;
+  text-align: center;
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  p {
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .video-loop {
+    box-shadow: 0 0 1.5rem rgba(105, 105, 105, 0.5);
+    max-width: 870px;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  .alligned-info-text {
+    text-align: left;
+
+    img {
+      padding-left: 1em;
+      margin-bottom: 2em;
+    }
+    h3 {
+      padding-left: 1em;
+      font-size: 1em;
+      font-weight: 700;
+    }
+  }
+}
+
+.features-page {
+  margin-top: 2em;
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 2em;
+    padding-left: 1em;
+  }
+  p {
+    font-weight: 600;
+    padding-top: 1em;
+    padding-left: 3em;
+  }
+  a {
+    padding-left: 3em;
+    font-weight: 500;
+    color: $linkColor;
+    &:hover {
+      color: $linkOnHoverColor;
+    }
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.clients-page {
+  margin-top: 1em;
+}

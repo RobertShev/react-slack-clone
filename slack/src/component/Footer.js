@@ -160,8 +160,10 @@ function Footer() {
                   <a href="/">Contact Us</a>
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faGlobe} className="icon" />
-                  <a href="/">Change Region</a>
+                  <a href="/">
+                    <FontAwesomeIcon icon={faGlobe} className="icon" />
+                    Change Region
+                  </a>
                 </li>
               </ul>
             </Col>

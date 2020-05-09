@@ -16,3 +16,21 @@ $i: !important;
     padding: 0.5em;
   }
 }
+
+.btn-outline-primary {
+  border-color: $primaryButtonColor $i;
+  &:hover {
+    border-color: desaturate($primaryButtonColor, 20%) $i;
+    background-color: rgb(255, 255, 255) $i;
+  }
+  &:focus {
+    outline: none $i;
+    box-shadow: none $i;
+  }
+  span {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.5em;
+    color: $primaryButtonColor;
+  }
+}
