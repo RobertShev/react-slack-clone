@@ -36,28 +36,40 @@ function Header() {
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav>Why Slack?</DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem>Option 1</DropdownItem>
-                      <DropdownItem>Option 2</DropdownItem>
-                      <DropdownItem>Option 3</DropdownItem>
-                      <DropdownItem>Option 4</DropdownItem>
+                      <DropdownItem>Features</DropdownItem>
+                      <DropdownItem>How it replaces email</DropdownItem>
+                      <DropdownItem>Security</DropdownItem>
+                      <DropdownItem>Customers</DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav>Solutions</DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem>Option 1</DropdownItem>
-                      <DropdownItem>Option 2</DropdownItem>
-                      <DropdownItem>Option 3</DropdownItem>
-                      <DropdownItem>Option 4</DropdownItem>
+                      <DropdownItem>Remote Work</DropdownItem>
+                      <DropdownItem>Distance Learning</DropdownItem>
+                      <DropdownItem>Engineering</DropdownItem>
+                      <DropdownItem>Financial Services</DropdownItem>
+                      <DropdownItem>Sales</DropdownItem>
+                      <DropdownItem>IT</DropdownItem>
+                      <DropdownItem>Marketing</DropdownItem>
+                      <DropdownItem>Customer Support</DropdownItem>
+                      <DropdownItem>Human Resources</DropdownItem>
+                      <DropdownItem>Project Management</DropdownItem>
+                      <DropdownItem>Media</DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav>Resources</DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem>Option 1</DropdownItem>
-                      <DropdownItem>Option 2</DropdownItem>
-                      <DropdownItem>Option 3</DropdownItem>
-                      <DropdownItem>Option 4</DropdownItem>
+                      <DropdownItem>Resources Library</DropdownItem>
+                      <DropdownItem>Slack Tips</DropdownItem>
+                      <DropdownItem>Blog</DropdownItem>
+                      <DropdownItem>Webinars</DropdownItem>
+                      <DropdownItem>Slack Certified Program</DropdownItem>
+                      <DropdownItem>Help Center</DropdownItem>
+                      <DropdownItem>API</DropdownItem>
+                      <DropdownItem>App Directory</DropdownItem>
+                      <DropdownItem>Download</DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <NavItem>
@@ -75,7 +87,7 @@ function Header() {
                   Sign In
                 </NavLink>
                 <Button color="primary" tag={RRNavLink} to="/Registration">
-                  primary
+                  <span>GET STARTED</span>
                 </Button>
               </Collapse>
             </Navbar>

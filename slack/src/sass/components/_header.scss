@@ -1,13 +1,32 @@
+@import '../custom/colors.scss';
+
 .navbar-brand {
   display: flex;
   align-items: center;
   width: 125px;
+  height: auto;
 }
-
+.navbar {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  li {
+    button {
+      padding-left: 0.5em;
+      &:hover {
+        color: $textOnHoverColor;
+      }
+    }
+  }
+}
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-
+.dropdown-item {
+  font-size: smaller;
+  &:hover {
+    color: $textOnHoverColor;
+  }
+}
 .nav-link {
   color: rgb(0, 0, 0) !important;
 }

@@ -1,3 +1,4 @@
+@import '../custom/colors.scss';
 .footer {
   flex-shrink: 0;
   text-align: center;
@@ -20,10 +21,13 @@
           font-size: 0.9em;
         }
         a {
-          color: rgb(82, 82, 82);
+          color: $footerTextColor;
           text-decoration: none;
           font-weight: 400;
           font-size: 0.8em;
+          &:hover {
+            color: $textOnHoverColor;
+          }
         }
       }
     }
@@ -44,6 +48,13 @@
         .icon {
           padding-right: 0.2em;
         }
+        a {
+          color: $footerTextColor;
+          text-decoration: none;
+          &:hover {
+            color: $textOnHoverColor;
+          }
+        }
       }
     }
     .social-networks {
@@ -54,9 +65,9 @@
         font-weight: 600;
         float: right;
         .social-network-icons {
-          color: rgb(82, 82, 82);
+          color: $footerTextColor;
           &:hover {
-            color: rgb(102, 102, 102);
+            color: $textOnHoverColor;
           }
         }
       }

@@ -151,17 +151,17 @@ function Footer() {
             <Col className="informational-list">
               <ul>
                 <li>
-                  <a>Status</a>
+                  <a href="/">Status</a>
                 </li>
                 <li>
-                  <a>Privacy & Terms</a>
+                  <a href="/">Privacy & Terms</a>
                 </li>
                 <li>
-                  <a>Contact Us</a>
+                  <a href="/">Contact Us</a>
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faGlobe} className="icon" />
-                  <a>Change Region</a>
+                  <a href="/">Change Region</a>
                 </li>
               </ul>
             </Col>

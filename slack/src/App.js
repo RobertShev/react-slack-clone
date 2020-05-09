@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './sass/App.scss';
+import './sass/custom/buttons.scss';
 import Header from './component/Header';
 import Home from './component/Home';
 import Footer from './component/Footer';
