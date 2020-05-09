@@ -46,7 +46,7 @@ npm -v
 if not installed:
 follow link below to install nodejs and npm
 
-- [install Nodejs](https://nodejs.org/en/download/)
+[install Nodejs](https://nodejs.org/en/download/)
 
 ### Installing
 
