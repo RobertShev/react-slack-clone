@@ -21,7 +21,14 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This project was developed only for educational purpose. view on slack website as if it was single page application.
+
+Slack clone developed with:
+
+- Reactjs
+- Reactstrap
+- Bootstrap
+- Sass
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
