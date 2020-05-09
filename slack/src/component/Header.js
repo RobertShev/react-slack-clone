@@ -28,7 +28,7 @@ function Header() {
           <Col>
             <Navbar light expand="md">
               <NavbarBrand tag={RRNavLink} exact to="/">
-                <img src="images/main-logo.svg" alt="Smiley face"></img>
+                <img src="images/logo/main-logo.svg" alt="Smiley face"></img>
               </NavbarBrand>
               <NavbarToggler onClick={toggle} />
               <Collapse isOpen={isOpen} navbar>
