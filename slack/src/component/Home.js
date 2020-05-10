@@ -1,15 +1,29 @@
 import React from 'react';
 import '../sass/pages/_home.scss';
-import { Container, Row, Col, Button, DropdownItem } from 'reactstrap';
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  DropdownItem,
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+} from 'reactstrap';
 import Carousel from './Carousel';
 
 function Home() {
+  //Links for video
   const url_1 =
     'https://a.slack-edge.com/085e3/marketing/img/homepage/video/brand-campaign_inline-video.mp4';
   const url_2 =
     'https://a.slack-edge.com/d6bad/marketing/img/features/channels/video/inline-1/channels-inline1.mp4';
   const url_3 =
     'https://a.slack-edge.com/d6bad/marketing/img/features/shared-channels/videos/inline-3/shared-channels-inline3.mp4';
+
   return (
     <div>
       <Container className="introduction-page">
@@ -247,6 +261,94 @@ function Home() {
             <Col></Col>
           </Row>
         </Container>
+      </Container>
+      <Container className="news-page">
+        <Row>
+          <Col>
+            <h2 className="centered">What’s new at Slack</h2>
+          </Col>
+        </Row>
+        <Row className="custom-card-row">
+          <Col>
+            <Card>
+              <CardImg
+                top
+                width="100%"
+                src="/images/content/cards/img-promo-remote-work.jpg"
+                alt="Card image cap"
+              />
+              <CardBody>
+                <CardSubtitle>
+                  <span>How-to</span>
+                </CardSubtitle>
+                <CardText>
+                  <h3 className="bigger">
+                    Your guide to working remotely in Slack
+                  </h3>
+                </CardText>
+                <a
+                  className="link left-bottom"
+                  href="https://slack.com/intl/en-ee/features/channels"
+                >
+                  LEARN MORE
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <CardImg
+                top
+                width="100%"
+                src="/images/content/cards/shared-channels-hp-promo.png"
+                alt="Card image cap"
+              />
+              <CardBody>
+                <CardSubtitle>
+                  <span>Blog</span>
+                </CardSubtitle>
+                <CardText>
+                  <h3 className="bigger">
+                    Shared channels: A better way to work with people outside
+                    your company
+                  </h3>
+                </CardText>
+                <a
+                  className="link left-bottom"
+                  href="https://slack.com/intl/en-ee/features/channels"
+                >
+                  LEARN MORE
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <CardImg
+                top
+                width="100%"
+                src="/images/content/cards/gsuite-calendar-email-files.png"
+                alt="Card image cap"
+              />
+              <CardBody>
+                <CardSubtitle>
+                  <span>Blog</span>
+                </CardSubtitle>
+                <CardText>
+                  <h3 className="bigger">
+                    Slack and G Suite bring productivity to your everyday work
+                  </h3>
+                </CardText>
+                <a
+                  className="link left-bottom"
+                  href="https://slack.com/intl/en-ee/features/channels"
+                >
+                  LEARN MORE
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

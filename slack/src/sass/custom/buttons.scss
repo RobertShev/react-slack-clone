@@ -22,6 +22,7 @@ $i: !important;
   &:hover {
     border-color: desaturate($primaryButtonColor, 20%) $i;
     background-color: rgb(255, 255, 255) $i;
+    border: 2px solid;
   }
   &:focus {
     outline: none $i;

@@ -100,3 +100,31 @@
     }
   }
 }
+.news-page {
+  h2 {
+    margin-top: 1em;
+  }
+  .custom-card-row {
+    margin-top: 2em;
+    margin-bottom: 3em;
+    .card {
+      box-shadow: 0 0 1.5rem rgba(105, 105, 105, 0.5);
+      max-width: 304px;
+      width: 80%;
+      height: 400px;
+      .card-img-top {
+        padding: 0.7em;
+      }
+      .bigger {
+        font-size: 1.3em !important;
+      }
+      .left-bottom {
+        display: block;
+        text-align: right;
+        position: absolute;
+        bottom: 1em;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
