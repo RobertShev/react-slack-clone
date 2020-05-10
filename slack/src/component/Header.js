@@ -22,13 +22,13 @@ function Header() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="sticky-top">
       <Container>
         <Row>
           <Col>
             <Navbar light expand="md">
               <NavbarBrand tag={RRNavLink} exact to="/">
-                <img src="images/logo/main-logo.svg" alt="Smiley face"></img>
+                <img src="images/logo/main-logo.svg" alt="Slack Logo"></img>
               </NavbarBrand>
               <NavbarToggler onClick={toggle} />
               <Collapse isOpen={isOpen} navbar>

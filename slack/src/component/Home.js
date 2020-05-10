@@ -1,6 +1,7 @@
 import React from 'react';
 import '../sass/pages/_home.scss';
 import { Container, Row, Col, Button, DropdownItem } from 'reactstrap';
+import Carousel from './Carousel';
 
 function Home() {
   const url_1 =
@@ -47,7 +48,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="video-page">
+      <Container className="video-page centered">
         <Row>
           <Col>
             <h2>Break out of the inbox</h2>
@@ -112,7 +113,10 @@ function Home() {
               Productive teamwork happens in channels — organized spaces for
               everything related to a project, topic or team.
             </p>
-            <a href="https://slack.com/intl/en-ee/features/channels">
+            <a
+              className="link"
+              href="https://slack.com/intl/en-ee/features/channels"
+            >
               Learn more about channels
             </a>
           </Col>
@@ -150,33 +154,99 @@ function Home() {
               Now channels can help you work as closely with external partners
               and clients as you do with teams down the hall.
             </p>
-            <a href="https://slack.com/intl/en-ee/features/channels">
+            <a
+              className="link"
+              href="https://slack.com/intl/en-ee/features/channels"
+            >
               See how with shared channels
             </a>
           </Col>
         </Row>
       </Container>
-      <Container className="clients-page">
-        <Row>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col></Col>
-        </Row>
-        <Row>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-          <Col></Col>
-        </Row>
+      <Container className="clients-page" fluid={true}>
+        <Container>
+          <Row>
+            <Col className="centered header">
+              <h2>Trusted the world over</h2>
+              <p>
+                Teams of every size, shape and kind have already made Slack the
+                place where their work happens.
+              </p>
+              <a
+                className="link"
+                href="https://slack.com/intl/en-ee/customer-stories"
+              >
+                See all customer stories
+              </a>
+            </Col>
+          </Row>
+          <Row className="custom-carousel">
+            <Col>
+              <Carousel></Carousel>
+            </Col>
+          </Row>
+          <Row className="custom-client-logos">
+            <Col>
+              <img
+                src="images/content/clients/airbnb-logo.png"
+                alt="Airbnb"
+                height="35"
+                className="centered-logo"
+              />
+            </Col>
+            <Col>
+              <img
+                src="images/content/clients/electronic-arts-logo.png"
+                alt="Electronic Arts"
+                height="35"
+                className="centered-logo "
+              />
+            </Col>
+            <Col>
+              <img
+                src="images/content/clients/ameritrade-logo.png"
+                alt="Ameritrade"
+                height="35"
+                className="centered-logo "
+              />
+            </Col>
+            <Col>
+              <img
+                src="images/content/clients/oracle-logo.png"
+                alt="Oracle"
+                height="35"
+                className="centered-logo "
+              />
+            </Col>
+            <Col>
+              <img
+                src="images/content/clients/target-logo.png"
+                alt="Target"
+                height="35"
+                className="centered-logo "
+              />
+            </Col>
+            <Col>
+              <img
+                src="images/content/clients/autodesk-logo.png"
+                alt="Autodesk"
+                height="35"
+                className="centered-logo "
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col></Col>
+          </Row>
+          <Row>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+            <Col></Col>
+          </Row>
+        </Container>
       </Container>
     </div>
   );
