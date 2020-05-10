@@ -10,7 +10,6 @@ import {
   CardImg,
   CardText,
   CardBody,
-  CardTitle,
   CardSubtitle,
 } from 'reactstrap';
 import Carousel from './Carousel';
@@ -347,6 +346,28 @@ function Home() {
                 </a>
               </CardBody>
             </Card>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="sales-page centered" fluid={true}>
+        <Row>
+          <Col>
+            <h3 className="white">Choose a better way to work</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button color="secondary" to="/Registration">
+              <span>TRY SLACK</span>
+            </Button>
+            <Button
+              outline
+              color="secondary"
+              to="/Registration"
+              className="button-distanced"
+            >
+              <span>CONTACT SALES</span>
+            </Button>
           </Col>
         </Row>
       </Container>

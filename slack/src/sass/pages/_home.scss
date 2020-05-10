@@ -115,9 +115,7 @@
       .card-img-top {
         padding: 0.7em;
       }
-      .bigger {
-        font-size: 1.3em !important;
-      }
+
       .left-bottom {
         display: block;
         text-align: right;
@@ -127,4 +125,18 @@
       }
     }
   }
+}
+.sales-page {
+  background-color: $slackPurple;
+  h3 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  Button {
+    margin: 0.6em;
+    padding: 0.5em;
+    width: 150px;
+  }
+  padding-bottom: 7em;
+  max-height: 380px;
 }

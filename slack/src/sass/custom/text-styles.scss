@@ -20,11 +20,20 @@ h3 {
   font-weight: 700 $i;
 }
 
+h3.bigger {
+  font-size: 1.3em $i;
+}
+h3.white {
+  font-size: 3em $i;
+  font-weight: 600 $i;
+  color: white;
+}
+
 .link {
   font-weight: 500;
-  color: $linkColor !important;
+  color: $linkColor $i;
   &:hover {
-    color: $linkOnHoverColor !important;
+    color: $linkOnHoverColor $i;
   }
 }
 .centered {

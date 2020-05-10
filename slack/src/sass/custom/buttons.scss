@@ -1,5 +1,7 @@
 @import 'colors.scss';
 $i: !important;
+
+//Filled Buttons
 .btn-primary {
   background-color: $primaryButtonColor $i;
   border-color: $primaryButtonColor $i;
@@ -16,7 +18,25 @@ $i: !important;
     padding: 0.5em;
   }
 }
+.btn-secondary {
+  background-color: white $i;
+  border-color: white $i;
+  &:hover {
+    border-color: $primaryButtonColor $i;
+  }
+  &:focus {
+    outline: none $i;
+    box-shadow: none $i;
+  }
+  span {
+    font-weight: 600;
+    color: $slackPurple;
+    font-size: 14px;
+    padding: 0.5em;
+  }
+}
 
+//Outline Buttons
 .btn-outline-primary {
   border-color: $primaryButtonColor $i;
   &:hover {
@@ -33,5 +53,23 @@ $i: !important;
     font-size: 14px;
     padding: 0.5em;
     color: $primaryButtonColor;
+  }
+}
+//Outline Buttons
+.btn-outline-secondary {
+  border-color: white $i;
+  &:hover {
+    background-color: $slackPurple $i;
+    border: 2px solid;
+  }
+  &:focus {
+    outline: none $i;
+    box-shadow: none $i;
+  }
+  span {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0.5em;
+    color: white;
   }
 }
