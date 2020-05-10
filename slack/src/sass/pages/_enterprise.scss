@@ -1,0 +1,19 @@
+@import '../custom/colors.scss';
+@import '../custom/text-styles.scss';
+
+.enterprise-page-contact {
+  margin-top: 4em;
+  .info-lower {
+    padding-top: 4.5em;
+  }
+  .main-page-image {
+    width: 40em;
+    height: auto;
+  }
+  .alligned-info-text {
+    margin-top: 5em;
+    img {
+      padding-bottom: 1em;
+    }
+  }
+}

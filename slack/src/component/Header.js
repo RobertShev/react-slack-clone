@@ -73,7 +73,7 @@ function Header() {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                   <NavItem>
-                    <NavLink tag={RRNavLink} to="/enterpise">
+                    <NavLink tag={RRNavLink} to="/enterprise">
                       Enterprise
                     </NavLink>
                   </NavItem>

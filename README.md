@@ -23,6 +23,13 @@
 
 This project was developed only for educational purpose. view on slack website as if it was single page application.
 
+Works:
+
+- Welcome Page
+- Routing (Pricing Enterprise)
+- Video
+- Carousel
+
 Slack clone developed with:
 
 - Reactjs
