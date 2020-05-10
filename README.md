@@ -84,7 +84,7 @@ Open http://localhost:3000 to view it in the browser.
 
 ```
 "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+   "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
@@ -92,9 +92,11 @@ Open http://localhost:3000 to view it in the browser.
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "flickity": "^2.2.1",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-flickity-component": "^3.5.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "reactstrap": "^8.4.1"
