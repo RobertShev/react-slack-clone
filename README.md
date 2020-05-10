@@ -26,7 +26,9 @@ This project was developed only for educational purpose. view on slack website a
 Works:
 
 - Welcome Page
-- Routing (Pricing Enterprise)
+- Enterprise Page
+- Prising Page
+- Routing (Index | Pricing | Enterprise)
 - Video
 - Carousel
 
