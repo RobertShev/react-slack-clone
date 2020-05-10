@@ -33,7 +33,7 @@ function Footer() {
                   <RRNavLink to="/">Features</RRNavLink>
                 </li>
                 <li>
-                  <RRNavLink to="/">Enterprise</RRNavLink>
+                  <RRNavLink to="/enterprise">Enterprise</RRNavLink>
                 </li>
                 <li>
                   <RRNavLink to="/">Security</RRNavLink>
@@ -42,7 +42,7 @@ function Footer() {
                   <RRNavLink to="/">Customer Stories</RRNavLink>
                 </li>
                 <li>
-                  <RRNavLink to="/">Pricing</RRNavLink>
+                  <RRNavLink to="/pricing">Pricing</RRNavLink>
                 </li>
                 <li>
                   <RRNavLink to="/">Slack Demo</RRNavLink>
